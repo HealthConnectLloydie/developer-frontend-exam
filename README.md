@@ -1,3 +1,24 @@
+Documentation
+Technology Stack
+
+    IDE: Visual Studio Code (v1.84.2)
+    Frontend Framework: React (v18.2.0)
+    Styling: Bootstrap (v5.3.2)
+    Language: TypeScript
+
+Source Code
+The source code for the application is located in the src directory.
+
+    The App.tsx file contains the main component for the application.
+    The TodoForm.tsx file contains the component for the Add and Edit records.
+    The TodoItem.tsx file contains the component for a single record.
+    The TodoList.tsx file contains the component for the list of records.
+    The SearchBars.tsx file contains the component for Search Function.
+
+To run this code
+
+I have deployed the application to a free hosting site called Netlify. To run the code, simply click on the following link: hhrg-binas-frontend.netlify.app
+
 SUMMARY FOR BOTH EXAM
 
 Q1 AND Q2 ANSWERS:
