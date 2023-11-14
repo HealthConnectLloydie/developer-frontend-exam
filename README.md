@@ -1,27 +1,35 @@
-# React + TypeScript + Vite
+SUMMARY FOR BOTH EXAM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Q1 AND Q2 ANSWERS:
 
-Currently, two official plugins are available:
+Frontend:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It took me about 9 hours to complete the frontend exam because I had to learn React with TypeScript from scratch. I have experience with React Native, but TypeScript is a new language for me. I had to research the following topics:
 
-## Expanding the ESLint configuration
+    TypeScript basics
+    React with TypeScript
+    React router
+    React components
+    React state management
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Backend:
 
-- Configure the top-level `parserOptions` property like this:
+It took me about 6 hours to complete the backend exam because I had to learn Node.js from scratch. I have no experience creating REST APIs, so I had to learn the following topics:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+    Node.js basics
+    Express.js
+    REST API design
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Q3.
+
+If I had used a database for the backend project, I would have used MongoDB. IT is also a popular choice for Node.js developers.
+
+To delete an employee from MongoDB, you can use the deleteOne() method. The deleteOne() method takes a query document as its argument. The query document specifies the criteria for which documents to delete. For example, the following query document would delete the employee with the ID of 123:
+
+{
+id: 123
+}
+
+To execute the query, you would call the deleteOne() method on the collection that contains the employee documents. For example, the following code would delete the employee with the ID of 123 from the employees collection:
+
+db.employees.deleteOne({ id: 123 });
